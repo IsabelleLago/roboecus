@@ -1,0 +1,22 @@
+.main-equipes {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.centro {
+    clear:both;
+    height: auto;
+}
+
+.centro2 {
+    margin-left: 25%;
+    clear:both;
+}
+
+h2 {
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	
+}

@@ -1,0 +1,140 @@
+#altocontraste{
+	color: white;
+}
+
+.item-contrast li {
+	list-style: none;
+}
+
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+    background: black;
+    color: white !important;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast u,
+.contrast span {
+    color: white !important;
+
+}
+
+.contrast button,
+.contrast input[type=button],
+.contrast input[type=reset],
+.contrast input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}
+
+.contrast input[type=text],
+.contrast input[type=password],
+.contrast input[type=url],
+.contrast input[type=search],
+.contrast input[type=email],
+.contrast input[type=tel],
+.contrast input[type=date],
+.contrast input[type=month],
+.contrast input[type=week],
+.contrast input[type=datetime],
+.contrast input[type=datetime-local],
+.contrast textarea,
+.contrast input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.contrast header{
+	background-color: black;
+}
+
+.contrast .btn,
+.contrast .btn2 {
+	background: #808080 !important;
+}
+
+.contrast .btn:hover,
+.contrast .btn2:hover {
+	background: #FFF !important;
+	color: #000;
+} 
+
+.contrast .menu{
+	background-color: grey;
+	}
+	
+.contrast .menu ul li{
+	background: grey;
+}
+
+.contrast .menu a{
+	color: black !important;
+	background-color: grey;
+}
+		
+	
+.contrast .menu a:hover{
+	background-color:black;
+	color: white !important;
+}
+
+.contrast #bt_menu{
+	display: none;
+	}
+	
+.contrast label[for='bt_menu']{
+	background-color:#ff4e00;
+	color:#fff;
+}	
+
+.contrast label[for='bt_menu']:hover{
+	background-color:#ff4e00;
+	color:black;
+}
+
+.contrast footer .row-footer, 
+.contrast footer section {
+	background: gray !important;
+}
+
+.contrast footer p {
+	color: black !important;
+}
+
+.contrast form button[type="submit"] {
+	background: #ffffff !IMPORTANT;
+    color: #000 !IMPORTANT;
+}
+    
+

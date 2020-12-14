@@ -1,0 +1,240 @@
+img {
+    max-width: 100%;
+}
+
+.projetos-pesquisa .coluna img {
+	margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.projetos-pesquisa .coluna1_imagem {
+    width: 100%;
+}
+
+.btn-mobile {
+    display: none;
+}
+
+/* MOBILE */
+@media only screen and (max-width : 549px) {
+    .titulo_pagina {
+        font-size: 240% !important;
+    }
+
+    .row:not(.row-footer) img {
+        width: auto;
+        height: auto;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width : 849px) {
+    .contrast .logo {
+        background: transparent !important;
+        height: auto;
+    }
+
+    .item-contrast {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .item-contrast a {
+        font-size: 18px;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .btn-mobile {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 32px;
+        width: 32px;
+        margin-top: 10px;
+        z-index: 999;
+    }
+
+    .btn-mobile span {
+        display: block;
+        border-radius: 10px;
+        height: 3px;
+        width: 100%;
+        background: #fe6600;
+    }
+
+    .btn-mobile span + span {
+        margin-top: 7px;
+    }
+
+    .logo {
+        width: 82px;
+    }
+
+    .titulo_pagina {
+        font-size: 290%;
+    }
+
+    .header {
+        height: 120px;
+    }
+
+    .p1 {
+        font-size: 24px;
+    }
+
+    .row {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .row > .coluna {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .row > .coluna {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .coluna1_texto {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .coluna img {
+        margin: auto !important;
+        display: block;
+    }
+
+    .column-reverse {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .column-reverse .coluna1_imagem,
+    .column-reverse .coluna1_texto {
+        margin-left: 0;
+        width: 100% !important;
+    }
+
+    .column-reverse 
+    p {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-reverse .btn {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .home-equipes .coluna1_texto p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coluna2_texto {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    footer {
+        padding-top: 60px !important;
+    }
+
+    footer .coluna3_footer {
+        margin-top: 20px;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 550px) and (max-width: 849px) { 
+}
+
+@media screen and (min-width: 800px) and (max-width: 972px) { 
+    .header {
+        box-sizing: border-box;
+        justify-content: space-between !important;
+        height: 120px;
+        padding: 0px 20px;
+    }
+
+    .p1 {
+        font-size: 28px;
+    }
+
+    .menu a {
+        font-size: 18px !important; 
+    }
+}
+
+
+@media (max-width: 800px) {
+	body {
+		background: white;
+	}
+		
+	header {
+		background-color: black;
+		width: 100%;
+	}
+
+    .menu {
+        justify-content: left;
+    }
+
+    .menu ul {
+        width: 100%;
+    }
+
+    .menu ul li {
+        display: block;
+        height: auto;
+    }
+
+	.coluna1_texto{
+		margin-left: 10%;
+		margin-right: 10%;
+		float: left;
+		text-align:justify;
+	}
+
+	.coluna2_texto{
+		margin-left: 10%;
+		margin-right: 10%;
+		float: left;
+		text-align:justify;
+	}
+
+	.coluna1_imagem {
+		margin-left: 5%;
+		float: left;
+	}
+
+	.c1 {
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Anton', sans-serif;
+		
+	}
+
+	.c2 {
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Anton', sans-serif;
+    }
+    
+    .item-contrast {
+        right: 10%;
+    }
+}

@@ -1,0 +1,56 @@
+
+input, textarea { 
+    outline: none;
+}
+
+
+form {
+    position: relative;
+    width: 90%;
+    border-radius: 30px;
+    background: #fff;
+    margin-left: 300px;
+    margin: 0 auto;
+}
+
+
+.form-inner {
+    padding: 40px;
+}
+.form-inner input,
+.form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+}
+.form-inner textarea {
+    resize: none;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid #3e4f24;
+    background: #FF6600; 
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    transition: 2s background;
+    cursor: pointer;
+}
+button:hover {
+    background: black;
+    color: white;
+} 
+@media (min-width: 700px) {
+    form {
+        width: 60%;
+        margin: 0 auto;
+    }
+}

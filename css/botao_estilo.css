@@ -1,0 +1,39 @@
+.btn {
+  color: black;
+  font-weight: bold;
+  background-color: #FF6600;
+  border-width: 1px;
+  border-style: solid;
+  border-color: inherit;
+  padding: 20px;
+  transition: .1s ease-in;
+  display: block;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn:hover {
+    color: #FF6600;
+    background-color: black;    
+}
+
+.btn2 {
+  color: black;
+  font-weight: bold;
+  background-color: #FF6600;
+  border-width: 1px;
+  border-style: solid;
+  border-color: inherit;
+  padding: 20px;
+  transition: .1s ease-in;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: fit-content;
+}
+
+.btn2:hover {
+    color: #FF6600;
+    background-color: black;    
+}

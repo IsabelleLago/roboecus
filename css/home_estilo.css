@@ -1,0 +1,26 @@
+#altocontraste{
+    color: white !important;
+}
+
+.ch {
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	
+}
+
+.p1 {
+    margin-top:40px;
+    font-size: 32px;
+}
+
+a{
+	font-size: 20px;
+    color: #ff4e00;
+    text-decoration: none;
+}
+
+.home-projetos-pesquisa a.btn2 {
+    font-size: 16px;
+}
+	
