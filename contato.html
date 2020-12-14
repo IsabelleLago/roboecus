@@ -1,0 +1,114 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Roboecus </title>
+
+    <link href="css/home_estilo.css" rel="stylesheet">
+    <link href="css/global_estilo.css" rel="stylesheet">
+    <link href="css/contato_estilo.css" rel="stylesheet">
+    <link href="css/colunas.css" rel="stylesheet">
+    <link href="css/header_estilo.css" rel="stylesheet">
+    <link href="css/nav_estilo.css" rel="stylesheet">
+    <link href="css/footer_estilo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/contrast.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <section class="logo">
+            <a href="index.html">
+                <img src="imagens/logo.png" width="90%" height="100%">
+            </a>
+        </section>
+
+        <h1 class="titulo_pagina"> Equipe Roboecus </h1>
+
+        <ul class="item-contrast">
+            <li><a href="home_contraste.html" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste [Alt + 3]</a></li>
+        </ul>
+    </header>
+
+    <input type="checkbox" id="bt_menu">
+    <label for="bt_menu">&#9776;</label>
+
+
+    <nav class="menu">
+
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="campeonatos.html">Campeonatos</a></li>
+            <li><a href="equipes_anteriores.html">Equipes Anteriores</a></li>
+            <li><a href="projetos_de_pesquisa.html">Projetos de Pesquisa</a></li>
+            <li><a href="contato.html"> Entre em contato </a></li>
+        </ul>
+
+    </nav>
+
+
+    <main>
+
+        <form mehtod="POST" action="/" class="decor">
+            <div class="form-left-decoration"></div>
+            <div class="form-right-decoration"></div>
+            <div class="circle"></div>
+            <div class="form-inner">
+                <h1>Entre em contato</h1>
+                <br><br>
+                <label for="nome"> Nome </label>
+                <input type="text" placeholder="Nome" id="nome" required>
+                <label for="email"> Email </label>
+                <input type="email" placeholder="Email" id="email" required>
+                <label for="mensagem"> Mande uma mensagem para nós! </label>
+                <textarea id="mensagem" placeholder="Mensagem..." cols="70 " rows="5" required></textarea>
+                <button type="submit" href="/"> <b>Enviar</b></button>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+
+        <section class="row row-footer">
+
+            <section class="coluna1_footer">
+
+                <img src="imagens/Logo_Roboecus.png" width="90px" height="90px" class="img_footer">
+
+            </section>
+
+
+            <section class="coluna2_footer">
+
+                <p class="copyright">&copy; Roboecus - 2020</p>
+
+            </section>
+
+            <section class="coluna3_footer">
+
+                <a href="https://www.facebook.com/RoboEcus" target=”_blank”>
+                    <img src="imagens/logo_facebook.png" width="100px" height="50px">
+                </a>
+
+                <a href="https://www.instagram.com/roboecus/" target=”_blank”>
+                    <img src="imagens/logo_instagram.png" width="90px" height="60px">
+                </a>
+
+            </section>
+
+        </section>
+
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+
+</html>
